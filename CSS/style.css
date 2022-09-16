@@ -12,6 +12,7 @@ hr{
 }
 body{
     font-family: 'Montserrat', sans-serif;
+    font-size: larger;
 }
 /*container*/
 .container{
@@ -23,17 +24,27 @@ body{
     margin: auto;
 }
 /*link*/
-.link{
+a.link,a.link-active{
     text-decoration: none;
     padding: 0.5rem 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+a.link.link-primary{
+    text-decoration: none;
+    color: white;
+}
+a.link.link-secondary{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
 
 .link-primary{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
-    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    color: white
 }
 
 .link-secondary{
@@ -112,4 +123,11 @@ body{
 }
 .footer ul{
     padding-inline-start: 0px;
+}
+/* blog */
+.blog-heading{
+    text-align: center;
+}
+.blog-heading-inverted{
+    color: var(--primary-color);
 }
