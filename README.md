@@ -1,10 +1,20 @@
-This is my personal portfolio website. I am a webdeveloper and this website is for showcase my skills and project.
 
 # Bijaylaxmi Behera
-Hey! Welcome to my portfolio. 
+## Hey, welcome to my portfolio.
 
-For now I know:
-1. JavaScript
-2. NodeJS
-3. Repl.it
-4. CHALK
+This is my personal portfolio website. I am a web developer and this website is for showcase my skills and project. This is build from scracth during level-0 of neoG camp.
+## Tech Stack
+
+- HTML5
+- CSS3
+
+
+
+## Live app
+https://bijaylaxmi-behera-portfolio.netlify.app/
+## Screenshots
+
+<image src="https://user-images.githubusercontent.com/72284560/193084970-e17e692c-53e3-48a2-a565-4c6d24e4a8f1.png" width="70%" height="70%">
+
+
+
