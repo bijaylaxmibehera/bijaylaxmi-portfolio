@@ -14,7 +14,7 @@ This is my personal portfolio website. I am a web developer and this website is 
 https://bijaylaxmi-behera-portfolio.netlify.app/
 ## Screenshots
 
-<image src="https://user-images.githubusercontent.com/72284560/196073790-7ad80109-61da-4301-9f65-1c77fd321dcd.pngg" width="70%" height="70%">
+<image src="https://user-images.githubusercontent.com/72284560/196073790-7ad80109-61da-4301-9f65-1c77fd321dcd.png" width="70%" height="70%">
 
 
 
