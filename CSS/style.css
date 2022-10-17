@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 /* font-family: 'Montserrat', sans-serif; */
 
 :root{
    --primary-color: #0ea5e9;
-   --secondary-color:#19b6f9;
+   --secondary-color:#00A5E9;
    --dark-gray: #374151;
-   --off-white:#f5f5f5;
-   --dark-blue:#02315E;
+   --off-white:#E7EDEB;
+   --dark-blue:#003A6B;
+   --blue-grotto:#189AB4;
+   --blue-green:#75E6DA;
+   --baby-blue:#D4F1F4;
 }
 hr{
     margin: 3rem 0rem;
@@ -37,37 +41,40 @@ a.link.link-primary{
 }
 a.link.link-secondary{
     text-decoration: none;
-    color: var(--secondary-color);
+    color: var(--dark-blue);
 }
 a.link.link-secondary:hover{
     text-decoration: none;
-    color: var(--dark-blue);
+    color: var(--blue-grotto);
 }
 
 .link-primary{
-    background-color: var(--primary-color);
-    border-radius: 0.5rem;
+    background-color: var(--dark-blue);
+    border-radius: 1rem;
     text-decoration: none;
     cursor: pointer;
     color: white
 }
 .link-primary:hover{
-    background-color: var(--dark-blue);
-    border-radius: 0.5rem;
+    background-color: var(--blue-grotto);
+    border-radius: 1rem;
     text-decoration: none;
     cursor: pointer;
     color:cornsilk;
+    box-shadow: 0 10px 10px 0 rgb(0 0 0 / 20%), 0 12px 20px 0 rgb(0 0 0 / 10%);
 }
 
 .link-secondary{
-  color: var(--secondary-color);
-  border-radius: 0.5rem;
-  border: 1px solid var(--secondary-color);
+  color: var(--dark-blue);
+  border-radius: 1rem;
+  border: 1px solid var(--dark-blue);
 }
 .link-secondary:hover{
-  color: var(--dark-blue);
-  border-radius: 0.5rem;
-  border: 1px solid var(--dark-blue);
+  color: var(--blue-grotto);
+  background-color: whitesmoke;
+  border-radius: 1rem;
+  border: 1px solid var(--blue-grotto);
+  box-shadow: 0 10px 10px 0 rgb(0 0 0 / 20%), 0 12px 20px 0 rgb(0 0 0 / 10%);
 }
 
 /*List part*/
@@ -80,20 +87,28 @@ a.link.link-secondary:hover{
 }
 /*nav*/
 .navigation{
-    background-color: var(--primary-color);
+    background-color: var(--dark-blue);
     color: white;
     padding: 1rem;
-    border-bottom-left-radius: 1rem;
+    border-bottom-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+
 }
 .navigation .nav-brand{
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.7rem;
+    font-family: 'Kalam', cursive;
+    /* color: var(--blue-green); */
 }
 .navigation .nav-pills{
-    text-align: right;
+    text-align: center;
 }
 .navigation .link{
     color: white;
+}
+.navigation .link:hover{
+    color: var(--blue-green);
+    font-weight: bolder;
 }
 .navigation .link-active{
     font-weight: bold;
@@ -111,8 +126,11 @@ a.link.link-secondary:hover{
     color: var(--dark-gray);
     text-align: center;
 }
+.hero #hero-name{
+    font-family: 'Kalam', cursive;
+}
 .hero .hero-heading .heading-inverted{
-    color: var(--primary-color);
+    color: var(--blue-grotto);
 }
 /*section*/
 .section{
@@ -122,15 +140,16 @@ a.link.link-secondary:hover{
     text-align: center;
 }
 .ow{
-    background-color: var(--off-white);
+    background-color: var(--baby-blue);
 }
 /*footer*/
 .footer{
-    background-color: var(--primary-color);
+    background-color: var(--dark-blue);
     padding: 2rem 1rem;
     text-align: center;
     color: white;
-    border-top-right-radius: 1rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
 }
 .footer .link{
     color: white;
@@ -147,5 +166,5 @@ a.link.link-secondary:hover{
     text-align: center;
 }
 .blog-heading-inverted{
-    color: var(--primary-color);
+    color: var(--blue-grotto);
 }
