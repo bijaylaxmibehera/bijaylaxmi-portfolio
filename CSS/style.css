@@ -12,6 +12,7 @@
    --blue-green:#75E6DA;
    --baby-blue:#D4F1F4;
 }
+
 hr{
     margin: 3rem 0rem;
 }
@@ -167,4 +168,16 @@ a.link.link-secondary:hover{
 }
 .blog-heading-inverted{
     color: var(--blue-grotto);
+}
+
+
+@media only screen and (max-width:768px){
+    .navigation .nav-pills {
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+    }
+    .list-item-inline{
+        padding: 0;
+    }
 }
